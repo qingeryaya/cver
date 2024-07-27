@@ -1,0 +1,22 @@
+%YAML:1.0
+---
+imageH : 640
+imageW : 640
+NMSTh : 0.5
+handModelPath : "../models/HANDS_YOLOV5s.onnx"
+handModelConfTh : 0.4
+handModelClassNum : 1
+classNames_Hands:
+  - hand
+
+personModelPath : "../models/PERSON_YOLOV5s.onnx"
+personModelConfTh : 0.4
+personModelClassNum : 1
+classNames_Person:
+  - person
+
+faceModelPath : "../models/FACE_YOLOV5s.onnx"
+faceModelConfTh : 0.4
+faceModelClassNum : 1
+classNames_Face:
+  - face
